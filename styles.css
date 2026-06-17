@@ -71,8 +71,20 @@ header { padding: 22px 0; }
 }
 .phone img { width: 100%; display: block; border-radius: 33px; }
 
+/* Poetic firsts line under the hero headline */
+.firsts { font-size: 16px; color: var(--primary-deep); font-weight: 600; font-style: italic; margin-top: 14px; }
+
+/* Story paragraph */
+.story { max-width: 620px; margin: 6px auto 4px; text-align: center; animation: rise 0.6s ease both; }
+.story p { font-size: 17px; color: var(--secondary); }
+.story strong { color: var(--ink); font-weight: 700; }
+
+/* Closing call-to-action */
+.closing { text-align: center; margin: 36px 0 6px; }
+.closing p { font-size: 18px; font-weight: 700; color: var(--ink); margin-bottom: 16px; }
+
 /* Feature cards */
-.features { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 40px 0 10px; }
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 30px 0 10px; }
 .feature { background: var(--card); border-radius: 18px; padding: 20px; box-shadow: 0 4px 18px rgba(47,42,74,0.06); animation: rise 0.6s ease both; }
 .feature .ic { width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center; font-size: 21px; margin-bottom: 12px; }
 .feature h3 { font-size: 16px; font-weight: 700; }
